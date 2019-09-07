@@ -39,7 +39,7 @@ setup(
     keywords="mkdocs documentation markdown",
     packages=["mknotebooks"],
     include_package_data=True,
-    install_requires=["nbconvert", "nbconvert-utils", "mkdocs", "jupyter_client"],
+    install_requires=["nbconvert-utils", "nbconvert", "mkdocs", "jupyter_client"],
     platforms=["MacOS X", "Linux"],
     classifiers=[
         "Development Status :: 3 - Alpha",
